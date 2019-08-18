@@ -1,0 +1,28 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 8000
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    password: boot
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: boot
+  jpa:
+    show-sql: true
+    
+  application:
+    name: demo-cloud-user 
+ 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka 
+    instance:
+      prefer-ip-address: true
