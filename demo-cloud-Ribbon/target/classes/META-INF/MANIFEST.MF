@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: root
+Build-Jdk: 11.0.4
+Implementation-Title: demo-cloud-consumer
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/demo-cloud-con
+ sumer/
+Created-By: Maven Integration for Eclipse
+

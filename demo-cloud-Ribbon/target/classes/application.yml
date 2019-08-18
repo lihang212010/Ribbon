@@ -1,0 +1,21 @@
+server:
+  port: 8010
+  
+spring:
+  application:
+    name: demo-cloud-consumer
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka 
+    instance:
+       prefer-ip-address: true
+  
+management:
+  endpoints:
+    enabled: true
+    web:
+      base-path: /actuator  # 访问根路径
+      exposure:
+        include: "*"
